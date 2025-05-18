@@ -40,6 +40,7 @@ local Button = Tab:CreateButton({
    Name = "Wave Hub[Dead Rail]",
    Callback = function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/ScriptingAct/WaveHub-Premium-/refs/heads/main/Dead%20Rail'))()
+   Rayfield:Destroy()
    end,
 })
 
@@ -47,6 +48,7 @@ local Button = Tab:CreateButton({
    Name = "Wave Hub[Funky Friday]",
    Callback = function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/ScriptingAct/WaveHub-Premium-/refs/heads/main/Funky_Friday'))()
+   Rayfield:Destroy()
    end,
 })
 
@@ -54,6 +56,7 @@ local Button = Tab:CreateButton({
    Name = "Wave Hub[Natural Disaster Survival]",
    Callback = function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/ScriptingAct/WaveHub-Premium-/refs/heads/main/Natural%20Disaster'))()
+   Rayfield:Destroy()
    end,
 })
 
@@ -61,5 +64,6 @@ local Button = Tab:CreateButton({
    Name = "Wave Hub[The rake Remastered]",
    Callback = function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/ScriptingAct/WaveHub-Premium-/refs/heads/main/TherakeRemastered'))()
+   Rayfield:Destroy()
    end,
 })
