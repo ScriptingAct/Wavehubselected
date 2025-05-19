@@ -67,3 +67,11 @@ local Button = Tab:CreateButton({
    Rayfield:Destroy()
    end,
 })
+
+local Button = Tab:CreateButton({
+   Name = "Wave Hub[Whispering/the rake ]",
+   Callback = function()
+   loadstring(game:HttpGet('https://github.com/ScriptingAct/WaveHub-Premium-/blob/main/whispering'))()
+   Rayfield:Destroy()
+   end,
+})
